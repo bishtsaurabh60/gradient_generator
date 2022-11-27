@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, red,yellow);
+}
+h1{
+    text-align: center;
+    color:rgba(0,0,0,0.6);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:4rem;
+    letter-spacing: 0.8rem;
+    background-color: antiquewhite;
+    width: max-content;
+    margin: 1rem auto;
+}
+
+div{
+    padding:2rem;
+    word-spacing:1rem;
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+    color:rgba(0,0,0,0.6);
+    font-size:2rem;
+    margin-bottom: 1rem;
+    background-color: antiquewhite;
+    width: max-content;
+    margin: 0 auto;
+}
+
+h3{
+    text-align:center;
+    color:rgba(0,0,0,0.6);
+    background-color: antiquewhite;
+    width: max-content;
+    margin: 0 auto;
+}
